@@ -1,0 +1,42 @@
+# ========================================
+# Server Configuration
+# ========================================
+# Copy this file to server.properties and configure your settings
+
+# Server Information
+server.name=L2 Private Server
+server.timezone=America/Sao_Paulo
+server.listType=Normal
+
+# Network Settings
+gameserver.hostname=127.0.0.1
+gameserver.port=7777
+loginserver.hostname=127.0.0.1
+loginserver.port=2106
+
+# Server IDs
+server.id=1
+request.id=
+
+# Security
+acceptAlternateId=True
+enableDebug=False
+
+# Thread Pool Settings
+threadPool.scheduledSize=100
+threadPool.instantSize=50
+
+# Client Protection
+client.maxPacketsPerSecond=100
+client.maxUnknownPackets=5
+client.packetQueueSize=100
+
+# GM Access
+gm.accessLevel=100
+gm.startup=False
+gm.nameColor=00FF00
+gm.titleColor=00FFFF
+
+# Server Features
+enableAutoSave=True
+autoSaveInterval=600000

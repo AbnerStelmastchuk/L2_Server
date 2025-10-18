@@ -1,0 +1,28 @@
+# ========================================
+# Database Configuration
+# ========================================
+# Copy this file to database.properties and configure your settings
+
+# Game Database
+game.db.driver=com.mysql.jdbc.Driver
+game.db.url=jdbc:mysql://localhost:3306/l2server
+game.db.user=root
+game.db.password=
+
+# Login Database
+login.db.driver=com.mysql.jdbc.Driver
+login.db.url=jdbc:mysql://localhost:3306/l2server_login
+login.db.user=root
+login.db.password=
+
+# Connection Pool Settings
+db.pool.maxConnections=100
+db.pool.maxIdleTime=0
+db.pool.idleConnectionTestPeriod=3600
+
+# Database Options
+db.allowMultiQueries=true
+db.useServerPrepStmts=true
+db.cachePrepStmts=true
+db.prepStmtCacheSize=250
+db.prepStmtCacheSqlLimit=2048

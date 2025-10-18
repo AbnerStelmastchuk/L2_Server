@@ -1,0 +1,44 @@
+-- ========================================
+-- L2 Server - Game Database Schema
+-- ========================================
+-- This is a template schema for the game server database
+-- Add your actual table definitions here
+
+-- Example: Characters table
+-- CREATE TABLE IF NOT EXISTS characters (
+--     charId INT UNSIGNED NOT NULL AUTO_INCREMENT,
+--     account_name VARCHAR(45),
+--     char_name VARCHAR(35) NOT NULL,
+--     level INT DEFAULT 1,
+--     maxHp INT DEFAULT 100,
+--     curHp INT DEFAULT 100,
+--     maxCp INT DEFAULT 0,
+--     curCp INT DEFAULT 0,
+--     maxMp INT DEFAULT 100,
+--     curMp INT DEFAULT 100,
+--     x INT DEFAULT 0,
+--     y INT DEFAULT 0,
+--     z INT DEFAULT 0,
+--     online TINYINT DEFAULT 0,
+--     onlinetime INT DEFAULT 0,
+--     createDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+--     PRIMARY KEY (charId),
+--     KEY account_name (account_name),
+--     KEY char_name (char_name)
+-- ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- Example: Items table
+-- CREATE TABLE IF NOT EXISTS items (
+--     object_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+--     owner_id INT,
+--     item_id INT,
+--     count BIGINT UNSIGNED DEFAULT 0,
+--     enchant_level INT DEFAULT 0,
+--     loc VARCHAR(10),
+--     loc_data INT,
+--     PRIMARY KEY (object_id),
+--     KEY owner_id (owner_id),
+--     KEY item_id (item_id)
+-- ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- Add more tables as needed for your L2 server implementation

@@ -1,0 +1,50 @@
+# ========================================
+# Rates Configuration
+# ========================================
+# Copy this file to rates.properties and configure your settings
+
+# Experience & Skill Points
+rate.xp=1.0
+rate.sp=1.0
+rate.partyXp=1.0
+rate.partySp=1.0
+
+# Quest Rewards
+rate.questRewardXP=1.0
+rate.questRewardSP=1.0
+rate.questRewardAdena=1.0
+rate.questDrop=1.0
+
+# Drop Rates
+rate.dropAdena=1.0
+rate.dropItems=1.0
+rate.dropSpoil=1.0
+rate.dropManor=1.0
+
+# Raid Boss Drops
+rate.raidDropItems=1.0
+
+# Pet Experience
+rate.petXp=1.0
+
+# Karma & Death
+rate.deathDropChance=1.0
+rate.karmaExpLost=1.0
+rate.siegeGuardsPrice=1.0
+
+# Craft Rates
+rate.extractable=1.0
+rate.masterworkChance=3.0
+rate.criticalCraftChance=3.0
+
+# Hellbound Trust Increase
+rate.hellboundTrustIncrease=1.0
+rate.hellboundTrustDecrease=1.0
+
+# Vitality
+rate.vitalityLevel1=1.5
+rate.vitalityLevel2=2.0
+rate.vitalityLevel3=2.5
+rate.vitalityLevel4=3.0
+rate.recoveryVitalityPeaceZone=1.0
+rate.recoveryVitalityOnReconnect=0.0
